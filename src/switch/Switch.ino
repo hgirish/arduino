@@ -1,9 +1,9 @@
 /* switch
- * 
+ * http://www.arduino.cc/en/tutorial/switch
  * Each time the input pin goes from LOW to HIGH (e.g. because of a push-button
  * press), the output pin is toggled from LOW to HIGH or HIGH to LOW.  There's
  * a minimum delay between toggles to debounce the circuit (i.e. to ignore
- * noise).  
+ * noise).
  *
  * David A. Mellis
  * 21 November 2006
@@ -40,7 +40,7 @@ void loop()
     else
       state = HIGH;
 
-    time = millis();    
+    time = millis();
   }
 
   digitalWrite(outPin, state);
